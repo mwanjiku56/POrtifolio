@@ -1,8 +1,22 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-container {
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   #navi {
     display: none;
   }
   #navi-2 {
     display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
   }
 }
